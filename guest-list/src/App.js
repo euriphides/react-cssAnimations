@@ -51,7 +51,10 @@ class GuestList extends Component {
           component="ul"
           transitionName="slide"
           transitionEnterTimeout={2000}
-          transitionLeaveTimeout={2000}>
+          transitionLeaveTimeout={2000}
+          transitionAppear={true}
+          transitionAppearTimeout={2000}
+        >
 
           {guests}
 
